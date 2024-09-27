@@ -1,0 +1,283 @@
+.main{
+    font-family: montserrat,sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+    padding: 0 0.5rem;
+}
+.sidebar{
+    background-color:black;
+    width: 425px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+    
+}
+.home a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+   
+}
+.search a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+}
+.search a:hover{
+    opacity: 1;
+}
+.options{
+    background-color: #222;
+    height: 9rem;
+    border-radius: 1rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.25rem;
+    line-height: 3.5rem;
+    font-size: 1.25rem;
+    padding-left: 1.5rem;
+    margin: 0.25rem;
+    }
+    
+    .lib-op a{
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+    }
+    .lib-op{
+       background-color:#222;
+       border-radius: 1rem;
+       margin: 0.30rem;
+       height: 3rem;
+        display: flex;
+        padding-top: 1.5rem;
+    }
+    .lib-s{
+        padding-left: 25px;
+        
+    }
+    .icon{
+        padding-right: 0.6rem;
+
+    }
+    .box1{
+        height: 9.5rem;
+        background-color: #222;
+        border-radius: 1rem;
+        margin:  0.40rem;
+        line-height: 1.5rem;
+        padding: 0.5rem;
+    }
+    .box2{
+        height: 9.5rem;
+        background-color: #222;
+        border-radius: 1rem;
+        margin:  0.40rem;
+        line-height: 1.5rem;
+        padding: 0.5rem;
+        margin-top: 0.90rem;
+    }
+    .p1{
+        font-size: 400;
+        font-weight: 700;
+        padding-top: 0.25rem;
+        padding-left: 0.80rem;
+
+    }
+    .badge{
+        
+        border-radius: 1rem;
+        height: 2.5rem;
+        width: 8rem;
+    }
+    .p2{
+        padding-left: 0.80rem;
+    }
+    
+    .ic{
+        position:sticky;
+        z-index: 10;
+        display: flex;
+        padding-top: 1.5rem;
+        padding-left: 0.5rem;
+        padding-left: 0.25rem;
+        height: 1.8rem;
+        z-index: 10;
+        
+    }
+        
+        
+    
+    .bh {
+        background-color:black;
+     color: white;
+    }
+    .main-content{
+        border-radius: 1rem;
+        margin:  0.5rem 0.2rem 3rem 0;
+        background-color: #28282b;;
+        overflow: auto;
+        width: 72%;
+        margin-bottom: 5rem;
+        }
+    
+    .ic-g{
+        padding-left: 60%;
+    
+    }
+    .heading{
+        font-weight: 700;
+            }
+    .card{
+        
+          padding: 1rem 0 0 1rem;
+            }
+    .card1 {
+        padding-left: 0.75rem;
+        background-color:#353935;
+        width: 20%;
+        height: 15%;
+        border-radius: 1rem;
+       
+    }
+    h3 ,p{
+        padding-left:0.50rem;
+        
+        line-height: 1.2rem;
+       
+    }
+    .cd1{
+        padding-left: 0.10rem;
+        padding-top: 0.50rem;
+        border-radius: 1rem;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .im{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;}
+        
+    .stick{
+            position: sticky;
+            z-index: 10;
+        }
+    .music-player{
+        background-color:black;
+        position: fixed;
+        bottom: 0px;
+        width: 97.7%;
+        height: 3.5rem;
+        margin-bottom: 0.5rem;
+        border-radius: 0.5rem;
+        display: flex;
+    }
+    .album{
+        width: 25%;
+        background-color:black;
+        display: flex;
+        
+    }
+    .music-bar{
+        width: 50%;
+        background-color:black;
+        
+    }
+    .control-icon{
+        width: 25%;
+        background-color:black;
+    }
+    .photo{
+        width: 15%;
+        height: 80%;
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    
+    .album-icon{
+        width: 5%;
+        display: flex;
+        padding-top: 1.25rem;
+        height: 45%;
+     }
+     .music-bar{
+      display: flex;
+      flex-direction: column;
+      line-height: 1rem;
+     }
+     .bar-icon img{
+        width: 2.2%;
+        height: 35%;
+        padding-left: 4rem;
+        
+        padding-top: 0.80rem;
+        
+     }
+     .player-control{
+        padding-left: 5rem;
+        padding-top: 0.75rem;
+        
+     }
+     .progress-bar{
+        appearance: none;
+        width: 25rem;
+        height: 0.10rem;
+        border-radius: 1rem;
+        
+     }
+     
+     .control-icon div{
+        display: inline-flex;
+        
+        
+        
+     }
+     .icon-control{
+        width: 35px;
+        height: 30px;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-right: 0.01rem;
+     }
+    
+     
+     .symbol{
+        appearance: none;
+        width: 7rem;
+        height: 0.10rem;
+        border-radius: 1rem;
+        
+        
+     }
+     .symbol::-webkit-slider-thumb{
+        appearance: none;
+     }
+     .icon3 {
+        width:1rem;
+        height: 1rem;
+        padding-bottom: 0.5rem;
+        
+       
+     }
+     .icon4{
+        width: 1rem;
+        height:1rem;
+        padding-bottom: 0.5rem;
+        
+     }
+     .music-bar-icon{
+        margin-right: 10px;
+     }
+
+    
+     
+    
+   
