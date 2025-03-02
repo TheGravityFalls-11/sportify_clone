@@ -38,6 +38,6 @@ Feel free to fork this project and enhance it! PRs are welcome. 🚀
 This project is for educational purposes only and does not intend to replicate Spotify's original functionalities.
 
 ---
-**Developed by [Aastha Hotwani](https://github.com/TheGravityFalls-11)**
+🚀 **Developed by [TheGravityFalls-11](https://github.com/TheGravityFalls-11)**
 
 
